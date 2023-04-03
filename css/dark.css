@@ -1,0 +1,137 @@
+@import url('toggle.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.acessibilidade{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    margin: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.900);
+}
+.fa-solid {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 800;
+    font-size: x-large;
+    margin: 10px 2px;
+}
+
+#login{
+    text-align: center;
+}
+.page {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #7704b5, #d030bb);
+
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.900);
+    gap: 5px;
+    transition: 2s;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: whi;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #f72585;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgb(98, 98, 250);
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #f72585;
+}
+
+.btn {
+    background-color: rgb(119, 4, 181);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: rgb(208, 48, 187);
+}
+
+.naoinscrito{
+    display: flex;
+    align-items: baseline;
+    content: space-between;
+}
+.naoinscrito > a{
+    margin-left: 5px;
+}

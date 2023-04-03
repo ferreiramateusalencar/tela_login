@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/light.css" id="style">
+</head>
+<body>
+    <div class="page">
+        <section class="acessibilidade">
+            <div>
+                <label class="switch">
+                    <input type="checkbox" id="btn-mododark" onclick= "colorMode(this.value)">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+            <i id="idark" class="fa-solid fa-circle-half-stroke" >&#xf042</i>
+            <i id="itt" class="fa-solid fa-text-size fa-beat">&#xf894</i>
+        </section>
+        <form action="" method="POST" class="formLogin">
+            <h1 id="login">Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail:</label>
+            <input type="email" style="font-family: 'Font Awesome 5 Free'; font-weight: 700;" name= 'email' placeholder="&#xf0e0 Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha:</label> 
+            <input type="password" style="font-family: 'Font Awesome 5 Free'; font-weight:700" 700; name='password' placeholder="&#xf023 Digite a senha"/>
+            <a class="esqueci" href="/">Esqueci minha senha</a>
+            <div class="remember">
+            <label for="lembrar"> Lembrar de mim</label>
+            <input type="checkbox" checked/>
+            </div>
+            <input type="submit" value="Acessar" class="btn" />
+            <div class="naoinscrito">
+            <label> Não é inscrito? </label>
+            <a href="/"> Se inscreva aqui!</a>
+            </div>
+            <script src="main.js"></script>
+        </form>
+    </div>
+    
+</body>
+</html>
